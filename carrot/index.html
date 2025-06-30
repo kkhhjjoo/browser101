@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun Game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="src/main.js" defer></script>
+    <!-- <script
+      src="https://kit.fontawesome.com/21e66eb023.js"
+      crossorigin="anonymous"
+    ></script> -->
+  </head>
+  <body>
+    <section class="game">
+      <header class="game__header">
+        <button class="game__button"><i class="fa-solid fa-play"></i></button>
+        <span class="game__timer">0:0</span>
+        <span class="game__score">9</span>
+      </header>
+      <section class="game__field"></section>
+    </section>
+    <section class="pop-up pop-up--hide">
+      <button class="pop-up__refresh">
+        <i class="fa-solid fa-rotate-right"></i>
+      </button>
+      <span class="pop-up__message">Hello</span>
+    </section>
+  </body>
+</html>
